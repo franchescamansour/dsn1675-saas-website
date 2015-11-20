@@ -46,6 +46,7 @@ body{
 
 h1{
   color: white;
+  text-decoration: none;
 }
 
 a{
@@ -60,13 +61,24 @@ a{
 
 /*---BANNER---*/
 .banner{
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
 
 .banner-img{
   padding-top: 56.25%;
   background: #cc99ff url("http://placehold.it/1920x1080/cc99ff") no-repeat center center;
-  background-szie: cover;
+  background-size: cover;
+}
+
+.intro-wrap{
+  background-color: #b266ff;
+  color: white;
+  width: 100%;
+}
+
+.intro-wrap li{
+  list-style: none;
 }
 
 /*---End of BANNER---*/
@@ -77,12 +89,27 @@ footer{
   text-align: center;
 }
 
+.icons{
+  list-style: none;
+  text-align: center;
+}
+
+.icons li{
+  display: inline-block;
+}
+
 /*---End of FOOTER---*/
 
 @media only screen and (min-width: 25em) {
 
   .nav li{
     display: inline-block;
+  }
+
+  .intro-wrap{
+    bottom: 4.5rem;
+    position: absolute;
+    background-color: transparent;
   }
 
 }
@@ -93,8 +120,17 @@ footer{
     text-align: left;
   }
 
+  .intro-wrap{
+    bottom: 9rem;
+    margin: 0 auto;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
+
+  .intro-wrap{
+    bottom: 18rem;
+  }
 
 }
