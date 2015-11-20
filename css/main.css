@@ -83,6 +83,20 @@ a{
 
 /*---End of BANNER---*/
 
+/*---TOUR---*/
+
+.tourlist{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tourlist ul {
+    list-style-image: url('http://placehold.it/30x30/26004d');
+    margin-left: 3rem;
+}
+
+/*---End of TOUR---*/
+
 /*---PREFOOTER---*/
 .prefooter{
   background-color: #f2e5ff;
@@ -153,6 +167,10 @@ footer{
 
   .intro-wrap{
     bottom: 18rem;
+  }
+
+  .tourlist ul {
+    margin-left: 9rem;
   }
 
 }
