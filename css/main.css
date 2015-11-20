@@ -102,12 +102,15 @@ a{
 .pricing{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  background-color: grey;
-  color: lightgrey;
+  background-color: lightgrey;
 }
 
 .pricing ul{
   margin-left: 3rem;
+}
+
+.sarah{
+  padding-bottom: 1.5rem;
 }
 
 /*---End of PRICING---*/
@@ -164,6 +167,11 @@ footer{
     background-color: transparent;
   }
 
+  .testimonial p{
+    max-width: 18rem;
+    margin-left: 3rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -182,6 +190,11 @@ footer{
     max-width: 28rem;
   }
 
+   .testimonial p{
+    max-width: 19.5rem;
+    margin-left: 4.5rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -196,6 +209,10 @@ footer{
 
   .awal{
     margin:0;
+  }
+
+  .testimonial p{
+    max-width: 22rem;
   }
 
 }
