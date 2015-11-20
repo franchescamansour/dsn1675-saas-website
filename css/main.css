@@ -50,7 +50,7 @@ h1{
 }
 
 a{
-  color: pink;
+  color: #d8b3ff;
 }
 
 .flex{
@@ -82,6 +82,28 @@ a{
 }
 
 /*---End of BANNER---*/
+
+/*---PREFOOTER---*/
+.prefooter{
+  background-color: #f2e5ff;
+  text-align: center;
+}
+
+.steps{
+  text-align: center;
+  list-style: none;
+}
+
+.sign{
+  list-style: none;
+  alignment: center;
+}
+
+.prefooter img{
+  align: center;
+}
+
+/*---End of PREFOOTER---*/
 
 /*---FOOTER---*/
 
