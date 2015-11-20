@@ -90,12 +90,28 @@ a{
   margin-bottom: 1.5rem;
 }
 
-.tourlist ul {
+.tourlist ul{
     list-style-image: url('http://placehold.it/30x30/26004d');
     margin-left: 3rem;
 }
 
 /*---End of TOUR---*/
+
+/*---PRICING---*/
+
+.pricing{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: grey;
+  color: lightgrey;
+}
+
+.pricing ul{
+  margin-left: 3rem;
+}
+
+/*---End of PRICING---*/
+
 
 /*---PREFOOTER---*/
 .prefooter{
