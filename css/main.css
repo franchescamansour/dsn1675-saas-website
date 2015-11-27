@@ -24,6 +24,23 @@ body{
   padding: 0;
 }
 
+.skip-links{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a{
+  position: absolute;
+  top: -3em;
+  font-weight: bold;
+  padding: 0.5rem 0.75rem;
+}
+
+.skip-links a:focus{
+  top: 0;
+}
+
 /*---HEADER---*/
 .section-dark{
   background-color: black;
@@ -51,6 +68,10 @@ h1{
 
 a{
   color: #d8b3ff;
+}
+
+a:focus{
+  outline: 3px solid hotpink;
 }
 
 .flex{
