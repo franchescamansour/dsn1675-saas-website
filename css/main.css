@@ -96,7 +96,25 @@ a:focus{
 
 .banner-img{
   padding-top: 56.25%;
-  background: url("http://placehold.it/1920x1080") no-repeat center center;
+  background: url("../images/homepagebanner.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.banner-img-pricing{
+  padding-top: 56.25%;
+  background: url("../images/pricingbanner.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.banner-img-tour{
+  padding-top: 56.25%;
+  background: url("../images/tourbanner.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.banner-img-signup{
+  padding-top: 56.25%;
+  background: url("../images/signupbanner.jpg") no-repeat center center;
   background-size: cover;
 }
 
