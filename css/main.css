@@ -112,6 +112,17 @@ a:focus{
 
 /*---End of BANNER---*/
 
+#main h2{
+  color: #6d5740;
+  font-family: 'Lato', sans-serif;
+}
+
+#main p{
+  color: #6d5740;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
 /*---TOUR---*/
 
 .tourlist{
@@ -120,8 +131,20 @@ a:focus{
 }
 
 .tourlist ul{
-    list-style-image: url('http://placehold.it/30x30/26004d');
+    list-style-image: url('http://placehold.it/30x30');
     margin-left: 3rem;
+}
+
+.first{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #6d5740;
+}
+
+.second{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #6d5740;
 }
 
 /*---End of TOUR---*/
@@ -131,7 +154,6 @@ a:focus{
 .pricing{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  background-color: lightgrey;
 }
 
 .pricing ul{
@@ -140,6 +162,31 @@ a:focus{
 
 .sarah{
   padding-bottom: 1.5rem;
+}
+
+.testimonial{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #6d5740;
+  background-color: #e1f4fd;
+}
+
+.awal{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #6d5740;
+}
+
+.secondprice{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #6d5740;
+}
+
+.thirdprice{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #6d5740;
 }
 
 /*---End of PRICING---*/
@@ -173,6 +220,7 @@ a:focus{
 
 footer{
   text-align: center;
+  font-weight: 300;
   color: #6d5740;
 }
 
