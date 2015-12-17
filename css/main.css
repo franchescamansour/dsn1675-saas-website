@@ -209,6 +209,65 @@ a:focus{
 
 /*---End of PRICING---*/
 
+/*---Signup---*/
+
+label{
+  display: block;
+  color: #6d5740;
+}
+
+form{
+  margin-top: 2rem;
+  border: 1px solid black;
+}
+
+form div{
+  margin-bottom: 1.5rem;
+}
+
+input,
+select{
+  width: 15em;
+  font-size: 1.125rem;
+}
+
+input{
+  border: 2px solid #3bc5f3;
+  background-color: #e1f4fd;
+  padding: .75em;
+}
+
+#name{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #3bc5f3;
+}
+
+#email{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #3bc5f3;
+}
+
+#password{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #3bc5f3;
+}
+
+button{
+  font-size: 1.125rem;
+  padding: 0.5em 0.75em;
+  background-color: #3bc5f3;
+  border: 3px solid #e1f4fd;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #fff9f3;
+  cursor: pointer;
+}
+
+/*---End of Signup---*/
+
 
 /*---PREFOOTER---*/
 .prefooter{
