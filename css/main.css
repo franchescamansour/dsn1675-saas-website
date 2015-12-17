@@ -88,7 +88,7 @@ a:focus{
 
 .banner-img{
   padding-top: 56.25%;
-  background: #cc99ff url("http://placehold.it/1920x1080/cc99ff") no-repeat center center;
+  background: url("homepagebanner.jpg") no-repeat center center;
   background-size: cover;
 }
 
