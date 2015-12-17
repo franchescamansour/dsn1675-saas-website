@@ -88,7 +88,7 @@ a:focus{
 
 .banner-img{
   padding-top: 56.25%;
-  background: url("homepagebanner.jpg") no-repeat center center;
+  background-image: url("homepagebanner.jpg") no-repeat center center;
   background-size: cover;
 }
 
