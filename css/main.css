@@ -151,7 +151,7 @@ a:focus{
 }
 
 .tourlist ul{
-    list-style-image: url('http://placehold.it/30x30');
+    list-style-image: url('..images/buildicon.png');
     margin-left: 3rem;
 }
 
@@ -404,6 +404,7 @@ footer{
 
   .tourlist ul {
     margin-left: 9rem;
+    font-size: 120%;
   }
 
   .awal{
@@ -418,5 +419,24 @@ footer{
   font-size: 120%;
   width: 30rem;
 }
+
+}
+
+@media print{
+
+  .masthead,
+  .prefooter,
+  .footer{
+    display: none;
+  }
+
+  #main img{
+    display: none;
+  }
+
+  .banner,
+  .testimonial img{
+    display: none;
+  }
 
 }
