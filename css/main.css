@@ -119,8 +119,10 @@ a:focus{
 }
 
 .intro-wrap{
-  background-color: #b266ff;
-  color: white;
+  background-color: #6d5740;
+  color: #fff9f3;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   width: 100%;
 }
 
@@ -221,7 +223,6 @@ form{
   margin: auto;
   margin-top: 2rem;
   text-align: center;
-  border: 3px solid #6d5740;
 }
 
 form div{
@@ -267,6 +268,23 @@ button{
   font-weight: 300;
   color: #fff9f3;
   cursor: pointer;
+}
+
+#thankyou{
+  font-size: 1rem;
+  font-weight: 300;
+  color: #6d5740;
+  text-align: center;
+  border: 1px solid #6d5740;
+  width: 20rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.app{
+  list-style: none;
 }
 
 /*---End of Signup---*/
@@ -395,5 +413,10 @@ footer{
   .testimonial p{
     max-width: 22rem;
   }
+
+  #thankyou{
+  font-size: 120%;
+  width: 30rem;
+}
 
 }
