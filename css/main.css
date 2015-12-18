@@ -217,8 +217,11 @@ label{
 }
 
 form{
+  width: 20rem;
+  margin: auto;
   margin-top: 2rem;
-  border: 1px solid black;
+  text-align: center;
+  border: 3px solid #6d5740;
 }
 
 form div{
@@ -337,6 +340,10 @@ footer{
     text-align: left;
   }
 
+  .banner p{
+  font-size: 130%;
+}
+
   .intro-wrap{
     bottom: 9rem;
     margin: 0 auto;
@@ -352,9 +359,26 @@ footer{
     margin-left: 4.5rem;
   }
 
+  form{
+    width: 30rem;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  input,
+  select{
+    width: 25em;
+    font-size: 1.125rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
+
+  .banner p{
+  font-size: 180%;
+}
 
   .intro-wrap{
     bottom: 18rem;
