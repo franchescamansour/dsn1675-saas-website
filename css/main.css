@@ -150,10 +150,41 @@ a:focus{
   margin-bottom: 1.5rem;
 }
 
+/*---LIST ICONS---*/
 .tourlist ul{
-    list-style-image: url('..images/buildicon.png');
-    margin-left: 3rem;
+  list-style-image: url('../images/buildicon.png');
+  margin-left: 3rem;
 }
+
+.calendar{
+  list-style-image: url('../images/calendaricon.png');
+}
+
+.gift{
+  list-style-image: url('../images/giftregisteryicon.png');
+}
+
+.track{
+  list-style-image: url('../images/trackicon.png');
+}
+
+.meal{
+  list-style-image: url('../images/mealicon.png');
+}
+
+.moodboard{
+  list-style-image: url('../images/moodboardicon.png');
+}
+
+.invitation{
+  list-style-image: url('../images/invitationicon.png');
+}
+
+.album{
+  list-style-image: url('../images/albumicon.png');
+}
+
+/*---END OF LIST ICONS---*/
 
 .first{
   font-family: 'Lato', sans-serif;
